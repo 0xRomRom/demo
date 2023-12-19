@@ -1,0 +1,123 @@
+.capitalbased {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+}
+
+.formLabel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(195, 195, 195);
+  gap: 2rem;
+  font-size: 20px;
+  padding-top: 6rem;
+  text-align: center;
+}
+
+.amountInput {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 16rem;
+  height: 3rem;
+  padding-left: 1rem;
+  font-size: 20px;
+
+  color: white;
+}
+
+.inputWrap {
+  width: 15rem;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgb(195, 195, 195);
+  height: 3rem;
+  overflow: hidden;
+  margin-bottom: 2rem;
+  border-radius: 0.3rem;
+}
+
+.cta {
+  width: 15rem;
+  min-height: 3rem;
+  font-size: 24px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgb(181, 181, 181);
+  border-radius: 0.3rem;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid white;
+}
+
+.errorSpan {
+  position: relative;
+  color: red;
+  font-size: 18px;
+  padding-top: 3rem;
+}
+
+.errorBox {
+  padding-top: 3rem;
+}
+
+.result {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  padding-top: 2rem;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.resultSpan {
+  color: rgb(185, 185, 185);
+  font-size: 24px;
+}
+
+.valueSpan {
+  font-size: 38px;
+}
+
+.miniSpan {
+  color: rgb(185, 185, 185);
+  font-size: 22px;
+}
+
+.loader {
+  color: teal;
+  font-size: 2rem;
+  animation: animate 2s infinite;
+}
+
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(720deg);
+  }
+}
